@@ -67,7 +67,7 @@ namespace NetTopologySuite.Tests.NUnit.IO
             CheckFormat(0.0000000000123456789012345, "0.0000000000123456789012345");
         }
 
-        [TestCase(0.84551240822557006, "0.84551240822557006"), Ignore("Known to fail")]
+        [TestCase(0.84551240822557006, "0.84551240822557006")]
         public void TestValue(double value, string expected)
         {
             CheckFormat(value, expected);
